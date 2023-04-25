@@ -7,7 +7,7 @@ If you are interested, I also created a [docker composer stack to run the same s
 
 Naturally we have the same settings as the original script but I added some variables to control new locations, names and the time between IP checks. Just edit ``no-ip.sh`` with your own values.
 ```sh
-BASE_DIR=         # Base directory Def.
+BASE_DIR=         # Base directory
                   #     Default: "$HOME/cloudflare-ddns-updater"
 SCRIPT_PATH=      # Full path to the cloudflare-template.sh script
                   #     Default: "$BASE_DIR/cloudflare-template.sh"
