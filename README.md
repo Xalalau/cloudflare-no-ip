@@ -52,17 +52,17 @@ cd cloudflare-no-ip
 nano no-ip.sh
 ```
 
-Edit ``no-ip.sh``:
+Edit ``no-ip.sh``. E.g.:
 
 ```sh
-AUTH_EMAIL=xalalau@xalalau.com
+AUTH_EMAIL=my@email.com
 AUTH_METHOD=global
 AUTH_KEY=e99e9719868eef6f9fce5d36kfa702ze92j0a
 ZONE_IDENTIFIER=9f8l2ceb95431f418c3373226z5a325b
-RECORD_NAME=subdomain.xalalau.com
+RECORD_NAME=subdomain.domain.com
 TTL=120
 PROXY=true
-SITENAME=Xalalau
+SITENAME=MyWebsite
 
 INTERVAL_SEC=5
 ```
