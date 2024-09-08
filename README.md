@@ -1,5 +1,5 @@
 # cloudflare-no-ip
-This script is nothing more than an aid in the configuration and installation of [cloudflare-ddns-updater](https://github.com/K0p1-Git/cloudflare-ddns-updater) as an Ubuntu service - still pure BASH.
+This script is nothing more than a help to configure and install [cloudflare-ddns-updater](https://github.com/K0p1-Git/cloudflare-ddns-updater) as an Ubuntu service - still pure BASH.
 
 If you are interested, I also created a [docker composer stack to run the same script as a cron job in a container](https://github.com/Xalalau/docker-stacks/tree/master/cloudflare-dns) (but I'm using a minimal Ubuntu as base instead of Alpine Linux, so the image is a little bigger).
 
